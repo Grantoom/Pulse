@@ -8,6 +8,22 @@
         align-items: center;
         }   
     }
+    .carousel__inner {
+        width: auto;
+        div
+            img {
+                width: 100%;
+            }
+    }
+    .slick-dots {
+        list-style-type: none;
+        button {
+            border: none;
+            border-radius: 40%;
+            width: 40px;
+            height: 40px;
+        }
+    }
 }   
 
 @media (max-width: 767px) {
@@ -67,6 +83,20 @@
             &_left {
                 text-align: center;
             }
+        }
+    }
+
+    .slick-dots {
+        button {
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+        }
+    }
+
+    .catalog {
+        &__tabs {
+            flex-wrap: wrap
         }
     }
 }
