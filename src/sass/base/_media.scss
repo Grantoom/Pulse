@@ -24,6 +24,11 @@
             height: 40px;
         }
     }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+    }
 }   
 
 @media (max-width: 767px) {
@@ -96,7 +101,14 @@
 
     .catalog {
         &__tabs {
-            flex-wrap: wrap
+            flex-wrap: wrap;
+        }
+    }
+
+    .reviews {
+        &__content {
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
 }
