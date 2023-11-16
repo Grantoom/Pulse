@@ -162,4 +162,22 @@
             height: 45px;
         }
     }
+    .modal {
+        width: 234px;
+        padding: 20px;
+        left: 40%;
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
+
+    .feat-form {
+        width: 100%;
+        button {
+            font-size: 14px;
+        }
+    }
 };
