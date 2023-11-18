@@ -42,4 +42,10 @@
             text-decoration-line: underline;
         }
     }
+    &_animated {
+        animation: heartbeat 2s linear infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
 }
